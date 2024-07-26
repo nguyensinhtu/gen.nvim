@@ -52,7 +52,8 @@ Example with Lazy
         show_prompt = false, -- Shows the prompt submitted to Ollama.
         show_model = false, -- Displays which model you are using at the beginning of your chat session.
         no_auto_close = false, -- Never closes the window automatically.
-        debug = false -- Prints errors and the command which is run.
+        debug = false, -- Prints errors and the command which is run.
+        generate_completion = false, -- /api/generate.
     }
 },
 ```
